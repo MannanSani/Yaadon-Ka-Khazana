@@ -1,22 +1,98 @@
+/* Google Fonts Import */
+
+
+/* Body Styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  text-align: center;
-  padding: 50px;
+    font-family: 'Noto Nastaliq Urdu', sans-Serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h1 {
-  color: darkgreen;
+/* Header Styling */
+header {
+    background-color: #006666;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #004c4c;
 }
 
-button {
-  padding: 10px 20px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  cursor: pointer;
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
 }
 
-button:hover {
-  background-color: #218838;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* Main Section Styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #006666;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    header, footer {
+        padding: 20px 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
 }
