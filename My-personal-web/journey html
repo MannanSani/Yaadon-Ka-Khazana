@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>میرا سفر</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>میرا سفر</h1>
+    <p>زندگی کی راہوں کا بیان — تنہائی، قربانی، اور جدوجہد۔</p>
+    <button id="nav-toggle">مینیو</button>
+  </header>
 
+  <nav id="nav-links">
+    <ul>
+      <li><a href="index.html">مرکزی صفحہ</a></li>
+      <li><a href="journey.html">میرا سفر</a></li>
+      <li><a href="thoughts.html">میری سوچیں</a></li>
+      <li><a href="faith.html">میرا عقیدہ</a></li>
+      <li><a href="journal.html">یادداشتیں</a></li>
+      <li><a href="about.html">ہمارے بارے میں</a></li>
+      <li><a href="links.html">ربط</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>پہلی ہجرت</h2>
+      <p>اپریل 1993 کی صبح جب میں نے پاکستان چھوڑا — نئی دنیا، نئے خواب۔</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 — یادوں کا خزانہ</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
